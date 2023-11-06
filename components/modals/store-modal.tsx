@@ -2,6 +2,7 @@
 
 import { Modal } from "@/components/ui/modal";
 import { useStoreModal } from "@/hooks/use-store-modal";
+
 import React from "react";
 
 export const StoreModal = () => {
