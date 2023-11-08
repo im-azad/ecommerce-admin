@@ -22,8 +22,8 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={inter.className}>
+          <ModalProvider />
           {children}
-          <ModalProvider></ModalProvider>
         </body>
       </html>
     </ClerkProvider>
